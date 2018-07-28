@@ -1,4 +1,4 @@
-# Dog-vs-Cat-Classifier
+# Dog vs Cat Classifier
 A binary image classifier that determines whether an image contains a dog or a cat. 
 _____________________________________________________________________________________________
 The classifier is a six layer convolutional neural network using TensorFlow's Keras API that 
