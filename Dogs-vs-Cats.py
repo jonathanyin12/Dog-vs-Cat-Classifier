@@ -67,7 +67,6 @@ model.compile(
 )
 
 
-
 # Defining callbacks
 checkpoint_path = "training_checkpoints/cp.ckpt"
 
@@ -83,13 +82,14 @@ checkpoint = ModelCheckpoint(
 early_stop = EarlyStopping(
     monitor='val_loss',
     min_delta=0,
-    patience=1,
+    patience=2,
     mode='min'
 )
 
 
 # Loading pre-trained weights
 model.load_weights(checkpoint_path)
+
 
 # Training model
 model.fit_generator(
