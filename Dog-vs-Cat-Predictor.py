@@ -7,12 +7,14 @@ import matplotlib.pyplot as plt
 
 # Processes input images
 folder = "prediction_inputs"
+
 images = []
 processed_images = []
+
 for file in os.listdir(folder):
     image = cv2.imread(os.path.join(folder, file))
-    rescaled = cv2.resize(image, (256, 256))/255.0
     if image is not None:
+        rescaled = cv2.resize(image, (256, 256))/255.0
         images.append(image)
         processed_images.append(rescaled)
 
