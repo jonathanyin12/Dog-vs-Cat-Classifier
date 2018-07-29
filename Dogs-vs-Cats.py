@@ -82,7 +82,7 @@ checkpoint = ModelCheckpoint(
 early_stop = EarlyStopping(
     monitor='val_loss',
     min_delta=0,
-    patience=2,
+    patience=5,
     mode='min'
 )
 
@@ -95,7 +95,7 @@ model.load_weights(checkpoint_path)
 model.fit_generator(
     train_generator,
     steps_per_epoch=625,
-    epochs=10,
+    epochs=20,
     callbacks=[early_stop, checkpoint],
     validation_data=validation_generator,
     validation_steps=625
