@@ -21,7 +21,7 @@ img_height = 256
 train_generator = data_gen.flow_from_directory(
     data_dir,
     target_size=(img_width, img_height),
-    batch_size=32,
+    batch_size=50,
     class_mode='binary',
     subset="training"
 )
@@ -29,7 +29,7 @@ train_generator = data_gen.flow_from_directory(
 validation_generator = data_gen.flow_from_directory(
     data_dir,
     target_size=(img_width, img_height),
-    batch_size=8,
+    batch_size=50,
     class_mode='binary',
     subset="validation"
 )
@@ -68,7 +68,7 @@ model.compile(
 
 
 # Defining callbacks
-checkpoint_path = "training_checkpoints/cp.ckpt"
+checkpoint_path = "training_checkpoint/cp.ckpt"
 
 checkpoint = ModelCheckpoint(
     checkpoint_path,
@@ -94,11 +94,13 @@ model.load_weights(checkpoint_path)
 # Training model
 model.fit_generator(
     train_generator,
-    steps_per_epoch=625,
+    steps_per_epoch=400,
     epochs=20,
     callbacks=[early_stop, checkpoint],
     validation_data=validation_generator,
-    validation_steps=625
+    validation_steps=100
 )
 
+
+# Saving trained model
 model.save('Dogs-vs-Cats_model.h5')

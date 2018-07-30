@@ -2,25 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e175f5a2-826f-45ba-b816-2023d92fd5db" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Dog-vs-Cat-Predictor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model_Evaluator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dogs-vs-Cats.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dogs-vs-Cats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dogs-vs-Cats_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/Dogs-vs-Cats_model.h5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/training_checkpoints/cp.ckpt.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/training_checkpoints/cp.ckpt.data-00000-of-00001" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/training_checkpoints/cp.ckpt.index" beforeDir="false" afterPath="$PROJECT_DIR$/training_checkpoints/cp.ckpt.index" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="242194563">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="checkpoint" value="2" />
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="21787" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="21787" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Dogs-vs-Cats.py" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dogs-vs-Cats.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1547">
-              <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+            <state relative-caret-position="799">
+              <caret line="104" column="22" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -28,11 +61,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dog-vs-Cat-Predictor.py" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Model_Evaluator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dog-vs-Cat-Predictor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-291">
-              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            <state relative-caret-position="314">
+              <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -59,12 +101,13 @@
         <option value="$PROJECT_DIR$/DvC-model.py" />
         <option value="$PROJECT_DIR$/Dog-vs-Cat-Predictor.py" />
         <option value="$PROJECT_DIR$/Dogs-vs-Cats.py" />
+        <option value="$PROJECT_DIR$/Model_Evaluator.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="358" />
+    <option name="y" value="228" />
     <option name="width" value="699" />
     <option name="height" value="682" />
   </component>
@@ -74,6 +117,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -85,7 +129,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -93,9 +136,13 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Jonathan Yin\PyCharm Projects\Dog-vs-Cat-Classifier\" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jonathan Yin\PyCharm Projects\Dog-vs-Cat-Classifier\prediction_inputs" />
       <recent name="C:\Users\Jonathan Yin\PyCharm Projects\Dog-vs-Cat-Classifier" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jonathan Yin\PyCharm Projects\Dog-vs-Cat-Classifier" />
+      <recent name="C:\Users\Jonathan Yin\PyCharm Projects\Dog-vs-Cat-Classifier\" />
       <recent name="C:\Users\Jonathan Yin\PyCharm Projects\Dog-vs-Cat-Classifier\Dog or Cat Classifier" />
     </key>
   </component>
@@ -111,7 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Dog-vs-Cat-Predictor">
+  <component name="RunManager" selected="Python.Model_Evaluator">
     <configuration name="Dog-vs-Cat-Predictor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Dog-vs-Cat-Classifier" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,6 +176,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="Dogs-vs-Cats-preprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Dog-vs-Cat-Classifier" />
@@ -147,6 +197,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="Dogs-vs-Cats" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Dog-vs-Cat-Classifier" />
@@ -165,6 +218,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="DvC-model" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Dog-vs-Cat-Classifier" />
@@ -183,17 +239,43 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Model_Evaluator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Dog-vs-Cat-Classifier" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Model_Evaluator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.Dogs-vs-Cats" />
       <item itemvalue="Python.DvC-model" />
       <item itemvalue="Python.Dogs-vs-Cats-preprocessing" />
       <item itemvalue="Python.Dog-vs-Cat-Predictor" />
+      <item itemvalue="Python.Model_Evaluator" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Dog-vs-Cat-Predictor" />
+        <item itemvalue="Python.Model_Evaluator" />
         <item itemvalue="Python.Dogs-vs-Cats" />
+        <item itemvalue="Python.Dog-vs-Cat-Predictor" />
         <item itemvalue="Python.DvC-model" />
         <item itemvalue="Python.Dogs-vs-Cats-preprocessing" />
       </list>
@@ -216,67 +298,60 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.125" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5005208" side_tool="true" weight="0.35812965" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49947917" visible="true" weight="0.35494155" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Python Console" order="0" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.3995749" />
       <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.113804005" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Python Console" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5005208" side_tool="true" weight="0.35812965" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49947917" visible="true" weight="0.34924078" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.3995749" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="1" />
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Dogs-vs-Cats-preprocessing.py">
+    <entry file="file://$PROJECT_DIR$/Dogs-vs-Cats-preprocessing.py" />
+    <entry file="file://$PROJECT_DIR$/DvC-model.py" />
+    <entry file="file://$PROJECT_DIR$/training_checkpoint/checkpoint">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training_checkpoint/checkpoint">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dog-vs-Cat-Predictor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="27" />
+        <state relative-caret-position="314">
+          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DvC-model.py">
+    <entry file="file://$PROJECT_DIR$/Model_Evaluator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" selection-end-line="79" />
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dogs-vs-Cats.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+        <state relative-caret-position="799">
+          <caret line="104" column="22" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dog-vs-Cat-Predictor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-291">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
